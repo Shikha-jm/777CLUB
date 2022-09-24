@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(../src/Assets/font/Gilroy-Light.otf);
+  }
+  @font-face {
+    font-family: Gilroy-ExtraBold;
+    src: url(../src/Assets/font/Gilroy-ExtraBold.otf);
+  }
+
+/* global css */
+*{
+    margin: 0px;
+    font-family: Gilroy-Light;
+    box-sizing: border-box;
+    border: 0px;
+    color: white;
+  }
+  p{
+    color: #fff;
+    font-weight: 100;
+    font-size: 16px;
+    margin: 0px;
+    line-height: 1.6em;
+  }
+body h1,body h2,body h3,body h4,body h5, body h6{
+    font-family: Gilroy-ExtraBold;
+    color:#fff;
+}
+body h1{
+    font-size: 45px;
+}
+h2{
+  font-size: 38px;
+}
+.container-wrapper{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1130px;
+}
+.btn_gradient {
+    background: transparent linear-gradient(99deg, #E600FF 0%, #2E2CF3 100%) 0% 0% no-repeat padding-box;
+    height: 50px;
+    border: 0px;
+    border-radius: 100px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 16px;
+    text-transform: uppercase;
+    max-width: 199px;
+    width: 100%;
+    font-family: Gilroy-ExtraBold;
+  }
